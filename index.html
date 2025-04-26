@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Juan Developer | Software Engineer</title>
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script> 
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+  <header class="hero">
+    <nav>
+      <div class="logo">RAMSystem</div>
+      <ul class="nav-links">
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>Hola, soy <span id="typewriter"></span></h1>
+      <p>Desarrollador de Software especializado en soluciones creativas y eficientes.</p>
+      <a href="#projects" class="btn">Ver Proyectos</a>
+    </div>
+  </header>
+
+  <section id="about" class="section about" data-aos="fade-up" data-aos-duration="1000">
+    <h2>Sobre mí</h2>
+    <p>Soy un apasionado del desarrollo de software con experiencia en tecnologías frontend y backend. Me encanta crear productos que impactan a las personas.</p>
+  </section>
+
+  <section id="projects" class="section projects" data-aos="fade-right" data-aos-duration="1000">
+    <h2>Proyectos</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>App de Tareas</h3>
+        <p>Una aplicación moderna de gestión de tareas con React y Node.js.</p>
+      </div>
+      <div class="project-card">
+        <h3>Landing Page Animada</h3>
+        <p>Diseño de página de alto impacto usando animaciones CSS y JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <h3>API RESTful</h3>
+        <p>API robusta y escalable para un sistema de reservas, con Express y MongoDB.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact" data-aos="fade-left" data-aos-duration="1000">
+    <h2>Contacto</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo" required>
+      <textarea placeholder="Tu mensaje" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Juan Developer. Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    AOS.init();
+  </script>
+  <script src="script.js"></script>  
+</body>
+</html>
